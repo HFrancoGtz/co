@@ -28,12 +28,16 @@ body{
     width: 250px;
 }
 
-.boton__unico:hover{
-    padding: 5px;
-    box-shadow: 5px 10px 20px 30px #cac9c9 inset;
-    border-radius: 60px;
-    
-}  
+
+header nav .icono__aplicaciones span{
+    display: inline-block;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+header nav .icono__aplicaciones span:hover{
+    background-color: #eceff3;
+}
 
 .boton__especial{
     background: #d2bfe6;
